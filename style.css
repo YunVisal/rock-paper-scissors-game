@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container {
+    width: fit-content;
+    margin: auto;
+}
+
+main .container div {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+main .container div h2 {
+    font-size: 150px;
+}
+
+main .container div img {
+    width: 30%;
+}
+
+#opponent_area {
+    margin-bottom: 7rem;
+}
+
+#opponent_action img {
+    transform: rotate(180deg);
+}
+
+#player_control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#player_control button {
+    width: 15%;
+    padding: 3rem;
+    margin: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+#player_control button img {
+    max-width: 100%;
+}
